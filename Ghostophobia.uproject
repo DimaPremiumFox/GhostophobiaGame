@@ -1,0 +1,54 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Ghostophobia",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AdvancedSessions",
+			"Enabled": true
+		},
+		{
+			"Name": "AdvancedSteamSessions",
+			"Enabled": false
+		},
+		{
+			"Name": "PhotonCloudAPI",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/76bee07c672c4dbba14df190d82f7f33"
+		},
+		{
+			"Name": "BlockoutToolsPlugin",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d337b97aca8947a893526964e179acfd"
+		},
+		{
+			"Name": "SoundUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "VoiceChat",
+			"Enabled": false
+		},
+		{
+			"Name": "SplineSweepMesh",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f9b003691cbc48d385c564491cab3c25"
+		},
+		{
+			"Name": "BlueprintNodeTemplate",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher: //ue/marketplace/content/8190f8cf1dfa44a4b9e5c8accde255f5"
+		}
+	]
+}
